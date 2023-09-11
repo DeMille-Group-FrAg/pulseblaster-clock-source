@@ -1,0 +1,106 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+SOP65P640X120-8N
+$EndINDEX
+$MODULE SOP65P640X120-8N
+Po 0 0 0 15 00000000 00000000 ~~
+Li SOP65P640X120-8N
+Cd Small Outline Pkg (SOP), 0.65 mm pitch; 8 pin, 3.00 mm L X 4.40 mm W X 1.20 mm H body<p><i>PCB Libraries Packages</i>
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -1.19532 -2.7721 1.00126 1.00126 0 0.05 N V 21 "SOP65P640X120-8N"
+T1 -0.686175 2.87176 1.00054 1.00054 0 0.05 N V 21 "VAL**"
+DC -3.98 -0.975 -3.88 -0.975 0.2 21
+DS -2.5 -1.8 -2.5 -1.43 0.05 26
+DS -2.5 -1.43 -3.91 -1.43 0.05 26
+DS -3.91 -1.43 -3.91 1.43 0.05 26
+DS -3.91 1.43 -2.5 1.43 0.05 26
+DS -2.5 1.43 -2.5 1.8 0.05 26
+DS -2.5 1.8 2.5 1.8 0.05 26
+DS 2.5 1.8 2.5 1.43 0.05 26
+DS 2.5 1.43 3.91 1.43 0.05 26
+DS 3.91 1.43 3.91 -1.43 0.05 26
+DS 3.91 -1.43 2.5 -1.43 0.05 26
+DS 2.5 -1.43 2.5 -1.8 0.05 26
+DS 2.5 -1.8 -2.5 -1.8 0.05 26
+DS -2.25 1.55 -2.25 -1.55 0.127 27
+DS -2.25 -1.55 2.25 -1.55 0.127 27
+DS 2.25 -1.55 2.25 1.55 0.127 27
+DS -2.25 -1.3635 -2.25 -1.55 0.127 21
+DS -2.25 -1.55 2.25 -1.55 0.127 21
+DS 2.25 -1.55 2.25 -1.3635 0.127 21
+DS -2.25 1.3635 -2.25 1.55 0.127 21
+DS -2.25 1.55 2.25 1.55 0.127 21
+DS 2.25 1.55 2.25 1.3635 0.127 21
+DS -2.25 1.55 2.25 1.55 0.127 27
+DC -1.821 -1.102 -1.721 -1.102 0.2 27
+$PAD
+Sh "1" R 1.57 0.41 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.87 -0.975
+$EndPAD
+$PAD
+Sh "2" R 1.57 0.41 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.87 -0.325
+$EndPAD
+$PAD
+Sh "3" R 1.57 0.41 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.87 0.325
+$EndPAD
+$PAD
+Sh "4" R 1.57 0.41 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.87 0.975
+$EndPAD
+$PAD
+Sh "5" R 1.57 0.41 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2.87 0.975
+$EndPAD
+$PAD
+Sh "6" R 1.57 0.41 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2.87 0.325
+$EndPAD
+$PAD
+Sh "7" R 1.57 0.41 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2.87 -0.325
+$EndPAD
+$PAD
+Sh "8" R 1.57 0.41 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2.87 -0.975
+$EndPAD
+$EndMODULE SOP65P640X120-8N

@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# CDCLVC1102PWR
+#
+DEF CDCLVC1102PWR U 0 40 Y Y 1 L N
+F0 "U" -400 450 50 H V L BNN
+F1 "CDCLVC1102PWR" -401 -501 50 H V L BNN
+F2 "SOP65P640X120-8N" 0 0 50 H I L BNN
+F3 "CDCLVC1102PWR" 0 0 50 H I L BNN
+F4 "TSSOP-8 Texas Instruments" 0 0 50 H I L BNN
+F5 "https://www.digikey.com/product-detail/en/texas-instruments/CDCLVC1102PWR/296-27610-1-ND/2342852?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F6 "Low Jitter, 1: 2 LVCMOS Fan-out Clock Buffer 8-TSSOP -40 to 85" 0 0 50 H I L BNN
+F7 "Texas Instruments" 0 0 50 H I L BNN
+F8 "296-27610-1-ND" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -400 -400 400 -400 N
+P 2 0 0 10 400 -400 400 400 N
+P 2 0 0 10 400 400 -400 400 N
+P 2 0 0 10 -400 400 -400 -400 N
+X 1G 2 -600 -200 200 R 40 40 0 0 I 
+X GND 4 600 -300 200 L 40 40 0 0 W 
+X CLKIN 1 -600 200 200 R 40 40 0 0 I C
+X Y0 3 600 100 200 L 40 40 0 0 O 
+X Y1 8 600 0 200 L 40 40 0 0 O 
+X VDD 6 600 300 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

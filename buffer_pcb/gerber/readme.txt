@@ -1,0 +1,1 @@
+board designed for FR4 0.6mm thickness

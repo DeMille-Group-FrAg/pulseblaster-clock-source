@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name CDCLVC1102PWR)(type Legacy)(uri ${KIPRJMOD}/Parts/CDCLVC1102PWR.lib)(options "")(descr ""))
+)

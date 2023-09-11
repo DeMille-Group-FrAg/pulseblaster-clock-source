@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name CDCLVC1102PWR)(type Legacy)(uri ${KIPRJMOD}/Parts/CDCLVC1102PWR.mod)(options "")(descr ""))
+  (lib (name Parts)(type KiCad)(uri ${KIPRJMOD}/Parts)(options "")(descr ""))
+)
