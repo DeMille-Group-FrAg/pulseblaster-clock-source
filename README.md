@@ -38,7 +38,7 @@ When only a single PulseBlaster needs to be synchronized to an external clock th
 | [LMK00804B](https://www.ti.com/tool/LMK00804BEVM) | Texas Instruments | 4 output Fanout Buffer |
 | 50 Ω term | any | 50 Ω through terminator |
 
-A PLL clock multiplier (NB3N502) is used to multiply 10 MHz into 50 MHz and a fanout buffer (LMK00804B) generates 4 50 MHz outputs from a single 50 MHz input.  
+A PLL clock multiplier (NB3N502) is used to multiply 10 MHz into 50 MHz and a fanout buffer (LMK00804B) generates 4 50 MHz outputs from a single 50 MHz input. If these are not available similarly (or better) specced multipliers and fanout buffers will suffice.  
 The NB3N502 requires 50 Ω input termination if the clock source has 50 Ω output impedance.
 
 ### Power requirement
