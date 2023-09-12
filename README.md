@@ -54,7 +54,7 @@ Here the 50 MHz generation circuits are boxed up separately from the PulseBlaste
 ### Parts
 | part | manufacturer | description |
 | --- | --- | --- |
-| [CDCLVC1102PWR](https://www.ti.com/product/CDCLVC1102/part-details/CDCLVC1102PWR) | Texas Instruments | buffer logic level shifter |
+| [CDCLVC1102PWR](https://www.ti.com/product/CDCLVC1102/part-details/CDCLVC1102PWR) | Texas Instruments | LVCMOS fan-out clock buffer |
 | 132134| Amphenol | SMA jack vertical |
 | DIP-14 W7.62mm socket | any | 14-pin dip socket |
 | R10 0402 | any | 10 Ω resistor |
