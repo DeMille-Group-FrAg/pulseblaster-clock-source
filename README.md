@@ -2,7 +2,7 @@
 
 Only tested with the PulseBlaster ESR-PRO USB.  
 
- The Spincore PulseBlaster generates it's clock from a 50 MHz crystal. In order to keep the FPGA clock synchronized with other devices, a method referencing an external clock source is required. 
+ The Spincore PulseBlaster requires a 50 MHz TTL clock signal, which it generates from crystal. In order to keep the FPGA clock synchronized with other devices, a method referencing an external clock source is required. 
  First 50 MHz is generated from 10 MHz, and then the 50 MHz clock signal is buffered right before proceeding to the FPGA.
 
  ```mermaid
