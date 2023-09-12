@@ -46,7 +46,7 @@ The NB3N502 requires 50 Ω input termination if the clock source has 50 Ω outpu
 * LMK00804B eval board requires 3.3V for single supply at `VDD` and `VDDO` 
 
 ## Assembly
-Here the 50 MHz generation circuits are boxed up separately from the PulseBlaster and a BNC couples the 50 MHz output to the PulseBlaster input buffer circuit, which requires a separate PSU to generate the required voltages. In the image below a lower voltage is generated for `VDDO`, which is not required.
+Here the 50 MHz generation circuits are boxed up separately from the PulseBlaster and a BNC couples the 50 MHz output to the PulseBlaster input buffer circuit, which requires a separate PSU to generate the required voltages. In the image below a lower voltage is generated for `VDDO` such that the output clock signal is smaller than 3V3, which is not required. 
 ![50 MHz generation assembly](images/box_50MHz.JPEG)
 
 ## 50 MHz clock buffer
