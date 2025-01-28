@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name CDCLVC1102PWR)(type Legacy)(uri ${KIPRJMOD}/Parts/CDCLVC1102PWR.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "CDCLVC1102PWR")(type "Legacy")(uri "${KIPRJMOD}/Parts/CDCLVC1102PWR.lib")(options "")(descr ""))
+  (lib (name "clock_buffer-rescue")(type "KiCad")(uri "${KIPRJMOD}/clock_buffer-rescue.kicad_sym")(options "")(descr ""))
 )
