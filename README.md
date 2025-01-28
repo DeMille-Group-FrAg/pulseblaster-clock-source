@@ -1,5 +1,11 @@
 # pulseblaster-clock-source
 
+**Patch Notes**  
+*2025-1-28* 
+>With KiCad 8.0 update put the DIP-14_W7.62mm_Socket footprint on the back to prevent DRC errors of the socket covering the parts underneath. The socket is just for the footprint, so the pin headers align nicely to the socket on the FGPA board. This reversal does mean that the pin numbers are mirrored, e.g. 14 <-> 1; 7 <-> 8 etc.
+
+
+## Introduction
 Only tested with the PulseBlaster ESR-PRO USB.  
 
  The Spincore PulseBlaster requires a 50 MHz TTL clock signal, which it generates from crystal. In order to keep the FPGA clock synchronized with other devices, a method referencing an external clock source is required. 
