@@ -1,0 +1,18 @@
+Part,Description,Vendor,Vendor Part Number,Unit Price,Quantity,Notes,Total Price
+LMK1C1108EVM,Clock since to LVTTL fanout eval board,Digikey,296-LMK1C1108EVM-ND,178.8,1,Takes sine wave clock signal and generates 8 LVTTL signals,178.8
+ NB3N3020DTGEVB ,Clock Multiplier Evaluation Board,eBay, NB3N3020DTGEVB ,400,1,"For multiplying clock signal. Note: Different model than CeNTREX, could not find the CeNTREX model anywhere in stock",400
+LMK00804BEVM,Fanout buffer eval board,Digikey,296-38479-ND,178.8,1,For splitting 1 multiplied signal into 4,178.8
+108-0902-001,Red banana jack,Digikey,J151-ND,1.53,1,,1.53
+108-0904-001,Green banana jack,Digikey,J153-ND,1.53,1,,1.53
+RM1U1908SBK,Rack mount enclosure,Digikey,HM995-ND,150.2,1,,150.2
+242181,Smaller panel mount for BNC to SMA,Digikey,ACX1326-ND,30.88,9,"1 for clock out, 7 for 10 MHz LVTTL out, 1 for pulseblasters",277.92
+LCAD30013,Larger panel mount BNC to SMA,Digikey,5073-LCAD30013-ND,22.66,4,For 4x 50 MHz clock out,90.64
+CO-174SMAx200-000.6,"6"" SMA cable",Digikey,3272-CO-174SMAX200-000.6-ND,13.57,8,Other equivalent cables work,108.56
+CO-174SMAx200-001,"12"" SMA cable",Digikey,3272-CO-174SMAX200-001-ND,13.81,5,Other equivalent cables work,69.05
+ADP-SMAM-SMAM-ND,SMA male-to-male adapter,Digikey,ADP-SMAM-SMAM-ND,5.31,1,Any equivalent model works,5.31
+LD1117V33C,3.3V regulator,Digikey,497-1492-5-ND,0.64,1,Note: Has different pinout than standard LM78xx. I also used a 100 nF input filter cap and 10uF output filter cap as per datasheet,0.64
+N/A,Resistors for voltage divider,Any,Any,0,2,I used 2x 47 kOhm resistors but any reasonable value works,0
+buffer_pcb,CeNTREX buffer PCB,CUSTOM,CUSTOM,0,1,,0
+Any,Breadboard,Any,Any,0,1,For soldering 3.3V regulator + voltage divider to generate 1.65V,0
+,,,,,,,
+,,,,,,Total cost,1127.31
