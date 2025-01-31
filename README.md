@@ -18,17 +18,18 @@ Only tested with the PulseBlaster ESR-PRO USB.
     fanout(fanout buffer)
     buffer(buffer)
     master(Master_input)
-    terminator(50 Ω term)
+    sine(Sine to LVTLL fanout buffer)
 
     subgraph 50Mhz[50 MHz]
-        terminator --> pll --> fanout
+        pll --> fanout
     end
 
     subgraph pulseblaster[PulseBlaster]
         buffer --> master
     end
 
-    clock --> terminator
+    clock --> sine
+    sine --> pll
     fanout --> buffer
  ```
 
