@@ -1,12 +1,19 @@
 # pulseblaster-clock-source
 
+**NOTE:** This README is modified from the CeNTREX repo from which this design originates. Both circuits accomplish the same goal but the exact parts are a little different on the FrAg box due to the available components at the time it was made. This README reflects the exact parts for the FrAg box. For the CeNTREX box, view README_CeNTREX or see their repo. 
+
+**TO DO**
+Update 50 MHz clock buffer section
+Updated Assembly + add waterjet files. Add waterjet/electrical assembly instructions
+Add front panel section
+
 **Patch Notes**  
 *2025-1-28* 
 >With KiCad 8.0 update put the DIP-14_W7.62mm_Socket footprint on the back to prevent DRC errors of the socket covering the parts underneath. The socket is just for the footprint, so the pin headers align nicely to the socket on the FGPA board. This reversal does mean that the pin numbers are mirrored, e.g. 14 <-> 1; 7 <-> 8 etc.
 
 
 ## Introduction
-Only tested with the PulseBlaster ESR-PRO USB.  
+Only tested with the PulseBlasterUSB.  
 
  The Spincore PulseBlaster requires a 50 MHz TTL clock signal, which it generates from crystal. In order to keep the FPGA clock synchronized with other devices, a method referencing an external clock source is required. 
  First 50 MHz is generated from 10 MHz, and then the 50 MHz clock signal is buffered right before proceeding to the FPGA.
@@ -78,13 +85,13 @@ The clock input on the PulseBlaster takes a 3.3V TTL signal at 50 MHz (but typic
 The buffer circuit that feeds into `Master_Clock` is shown below, where the 3V3 VCC (`VD`) is pulled from Pin 11 `D3.3V` of the clock crystal socket.
 ![buffer schematic](images/clock_buffer_schematic.png)
 <p align="middle">
-    <img src="images/clock_buffer_circuit.png" width="49%"/>
-    <img src="images/clock_buffer_photo.jpg" width="49%"/>
+    <img src="images/CeNTREX Box/clock_buffer_circuit.png" width="49%"/>
+    <img src="images/CeNTREX Box/clock_buffer_photo.jpg" width="49%"/>
 </p>
 
 
 ### Assembly
 <p align="middle">
-    <img src="images/clock_buffer_installed_closeup.jpg" width="49%"/>
-    <img src="images/clock_buffer_installed.jpg" width="49%"/>
+    <img src="images/CeNTREX Box/clock_buffer_installed_closeup.jpg" width="49%"/>
+    <img src="images/CeNTREX Box/clock_buffer_installed.jpg" width="49%"/>
 </p>
