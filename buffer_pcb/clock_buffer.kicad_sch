@@ -2165,7 +2165,6 @@
 		)
 	)
 	(symbol
-		(lib_name "CDCLVC1102PWR:CDCLVC1102PWR")
 		(lib_id "CDCLVC1102PWR:CDCLVC1102PWR")
 		(at 90.17 82.55 0)
 		(unit 1)
@@ -2211,6 +2210,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C113325"
 			(at 90.17 82.55 0)
 			(effects
 				(font
@@ -2415,6 +2423,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C15850"
+			(at 148.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6858d012-f613-469f-9b94-cc7f3e9158db")
 		)
@@ -2484,6 +2501,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C28323 "
+			(at 163.83 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "567a6ea1-f546-448e-85fc-b7cc4b1188d2")
 		)
@@ -2545,6 +2571,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 175.26 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C28233 "
 			(at 175.26 77.47 0)
 			(effects
 				(font
@@ -2685,6 +2720,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1051"
+			(at 156.21 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18d399f3-969d-4788-ab6c-0f069026bc70")
 		)
@@ -2754,6 +2798,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5362358"
+			(at 109.22 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9fd03f5b-bee8-4fad-9198-2af7762218ce")
 		)
@@ -2815,6 +2868,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 74.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C28233 "
 			(at 74.93 91.44 0)
 			(effects
 				(font
