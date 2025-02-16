@@ -53,7 +53,10 @@ The NB3N502 requires 50 Ω input termination if the clock source has 50 Ω outpu
 
 ## Assembly
 Here the 50 MHz generation circuits are boxed up separately from the PulseBlaster and a BNC couples the 50 MHz output to the PulseBlaster input buffer circuit, which requires a separate PSU to generate the required voltages. In the image below a lower voltage is generated for `VDDO` such that the output clock signal is smaller than 3V3, which is not required. 
-![50 MHz generation assembly](images/box_50MHz.JPEG)
+
+<p align="middle">
+    <img src="images/CeNTREX Box/box_50MHz.JPEG" width="99%"/>
+</p>
 
 ## 50 MHz clock buffer
 
@@ -71,19 +74,24 @@ Here the 50 MHz generation circuits are boxed up separately from the PulseBlaste
 
 ### PulseBlaster socket
 The clock input on the PulseBlaster takes a 3.3V TTL signal at 50 MHz (but typically 1.5V-2V is sufficient), in the socket shown in the figure below:
-![clock header](images/crystal_socket.png)
+![clock header](images/CeNTREX Box/crystal_socket.png)
+<p align="middle">
+    <img src="images/CeNTREX Box/crystal_socket.png" width="99%"/>
+</p>
 
 ### Circuit
 The buffer circuit that feeds into `Master_Clock` is shown below, where the 3V3 VCC (`VD`) is pulled from Pin 11 `D3.3V` of the clock crystal socket.
-![buffer schematic](images/clock_buffer_schematic.png)
 <p align="middle">
-    <img src="images/clock_buffer_circuit.png" width="49%"/>
-    <img src="images/clock_buffer_photo.jpg" width="49%"/>
+    <img src="images/CeNTREX Box/clock_buffer_schematic.png" width="99%"/>
 </p>
 
+<p align="middle">
+    <img src="images/CeNTREX Box/clock_buffer_circuit.png" width="49%"/>
+    <img src="images/CeNTREX Box/clock_buffer_photo.jpg" width="49%"/>
+</p>
 
 ### Assembly
 <p align="middle">
-    <img src="images/clock_buffer_installed_closeup.jpg" width="49%"/>
-    <img src="images/clock_buffer_installed.jpg" width="49%"/>
+    <img src="images/CeNTREX Box/clock_buffer_installed_closeup.jpg" width="49%"/>
+    <img src="images/CeNTREX Box/clock_buffer_installed.jpg" width="49%"/>
 </p>
