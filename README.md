@@ -52,22 +52,22 @@ A buffer (LMK1C1108) converts an input sine wave into 8 LVTTL signals. 7 signals
 ### Power requirement
 * The box takes 5V in which gets regulated down to 3.3V. There is also a voltage divider that produces 1.65V that's needed for selecting the correct frequency multiplication factor.
 * I connected `VDO` on the LMK1C1108 eval board to 3.3V. 
-* I connected `VDD` on the NB3N3020DTG eval board to 3.3V. `VEE` and `GND` were both tied to ground
-* To get the 5x multiplication factor, use a pin jumper to set `SEL0` to high and `SEL1` to high. For `SEL2` solder pin headers to apply 1.65V from the voltage divider. See the picture on the inside of the box for reference.   
+* I connected `VDD` on the NB3N3020DTG eval board to 3.3V. `VEE` and `GND` are both tied to ground
+* To get the 5x multiplication factor, use a pin jumper to set `SEL0` to high and `SEL1` to high. For `SEL2` use solder pin headers to apply 1.65V from the voltage divider. See the picture on the inside of the box for reference.   
 * LMK00804B eval board requires 3.3V for a single supply at `VDD`. Power will be shared with `VDDO` by setting the appropriate pin header. See the picture on the inside of the box for reference.
 
 ## Assembly
-All waterjet files can be found in Box Sync\FrAg\CAD\Electronics\50MHz Pulseblaster Clock box.
-1. Solder the power PCB with a 3.3V regulator, relevant filter capacitors, and a 1 to 2 voltage divider. Solder 3x 1x2 JST connectors as 3 3.3V outputs and an additional 1x2 JST connector as a 1.65V output.
+All waterjet files can be found in FrAg\CAD\Electronics\50MHz Pulseblaster Clock box
+1. Solder the power PCB with a 3.3V regulator, relevant filter capacitors, and a 1 to 2 voltage divider. Solder 3x 1x2 JST connectors as 3x 3.3V outputs and an additional 1x2 JST connector as a 1.65V output.
 2. Waterjet the front panel (Front Panel_imported_DXF_right.omx and Front Panel_imported_DXF_left.omx)
 3. Waterjet the PCB/eval board mounts (PowerPCBMount_imported_DXF.omx, LMK1C1108EVMMount_imported_DXF.omx, and FanoutBufferMount_imported_DXF.omx).
-4. Tap 2x 4-40 PowerPCBMount_imported_DXF.omx and mount the power PCB to this piece
-5. Usnig 4-40 screws, screw in the LMK1C1108EVM and Fanout Buffer to their respective mounts using 4-40 screws. Note: The heads of the screws will poke out from under the aluminum. Not elegant but it works.
+4. Tap 2x 4-40 PowerPCBMount_imported_DXF.omx and mount the power PCB to this piece.
+5. Using 8x 4-40 screws, screw in the LMK1C1108EVM and Fanout Buffer to their respective mounts using 4-40 screws. Note: The heads of the screws will poke out from under the aluminum. Not elegant but it works.
 6. Make power connectors to connect all 3 boards to 3.3V. Additionally, connect the 1.65V to `SEL2` using a soldering pin header.
 7. Install all of the banana and BNC-to-SMA connectors onto the front panel. Use the "L COM" connectors for the 4x 50 MHz clock output
 8. Using the SMA cables + adapters, connectorize the boards and front panel such the front panel 10 MHz IN goes to the LM1C1108EVM input, 7 of the outputs go to the "10 MHz SQ" outputs and 4 outputs from the fanout buffer go to "50 MHz SQ"
 9. Epoxy down the PCB mounts to the box and strain-relieve the cables.
-10. By undoing several screws, waterjet the back panel on the Pulseblaster (PulseblasterBackPanel_imported_DXF.omx) and install a SMA-to-BNC adapter.
+10. By undoing several screws, remove and waterjet the back panel on the Pulseblaster (PulseblasterBackPanel_imported_DXF.omx) and install a SMA-to-BNC adapter.
 11. Remove the 14-pin header holding the crystal oscillator and install the 50 MHz clock buffer (see below for details about the PCB). Connect the PCB to the BNC-to-SMA adapter via a SMA cable.    
 
 <p align="middle">
